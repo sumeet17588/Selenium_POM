@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]">
+  <test name="Simple input form Test(failed)">
+    <classes>
+      <class name="com.framework.pom.test.ValidateHomePageTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.framework.pom.test.ValidateHomePageTest -->
+      <class name="com.framework.pom.test.SimpleInputFormTest">
+        <methods>
+          <include name="quit"/>
+          <include name="SimpleInputForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.framework.pom.test.SimpleInputFormTest -->
+    </classes>
+  </test> <!-- Simple input form Test(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

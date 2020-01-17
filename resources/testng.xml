@@ -1,0 +1,15 @@
+<suite name="SuiteName">
+	
+	<test name="Home page Test" allow-return-values="true">
+		<classes>
+			<class name="com.framework.pom.test.ValidateHomePageTest" />
+		</classes>
+	</test>
+	
+	<test name="Simple input form Test" allow-return-values="true">
+		<classes>
+			<class name="com.framework.pom.test.SimpleInputFormTest" />
+		</classes>
+	</test>
+</suite>
+
